@@ -59,7 +59,7 @@ values.reverse()
 # actually printing stuff to the pygame window
 for i in range(len(weekly_data)):
     # pygame needs to constantly interact with the os or something idk
-    pygame.event.get()
+    pygame.event.pump()
 
     close = values[i]["5. adjusted close"]
     pygame.draw.circle(screen, pygame.Color(255, 255, 255), stock_graph.get_coords(i, float(close)), 1)
