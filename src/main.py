@@ -67,13 +67,23 @@ for i in range(len(weekly_data)):
     # display the stuff we drew fancily
     pygame.display.flip()
     time.sleep(0.002)
-    
-time.sleep(5)
+
+
+end_time = time.time() + 5
+while ( time.time() < end_time ):
+    pygame.event.pump()
+
+
+
 
 
 """
-text in pygame
 
+text in pygame:
 https://stackoverflow.com/questions/20842801/how-to-display-text-in-pygame
+
+pygame trying to kill itself:
+https://stackoverflow.com/questions/20165492/pygame-window-not-responding-after-a-few-seconds
+
 
 """

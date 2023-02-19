@@ -2,17 +2,17 @@
     "Meta Data": {
         "1. Information": "Weekly Adjusted Prices and Volumes",
         "2. Symbol": "GOOG",
-        "3. Last Refreshed": "2023-02-16",
+        "3. Last Refreshed": "2023-02-17",
         "4. Time Zone": "US/Eastern"
     },
     "Weekly Adjusted Time Series": {
-        "2023-02-16": {
+        "2023-02-17": {
             "1. open": "95.0100",
             "2. high": "97.8800",
             "3. low": "92.6500",
-            "4. close": "95.7800",
-            "5. adjusted close": "95.7800",
-            "6. volume": "158301629",
+            "4. close": "94.5900",
+            "5. adjusted close": "94.5900",
+            "6. volume": "189396696",
             "7. dividend amount": "0.0000"
         },
         "2023-02-10": {
